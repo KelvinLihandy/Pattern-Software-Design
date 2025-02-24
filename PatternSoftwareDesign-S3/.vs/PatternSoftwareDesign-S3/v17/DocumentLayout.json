@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DED0F0F2-CF68-431F-8370-6D5F16D58089}|PatternSoftwareDesign-S3.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s3\\viewwithmaster\\navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{DED0F0F2-CF68-431F-8370-6D5F16D58089}|PatternSoftwareDesign-S3.csproj|solutionrelative:viewwithmaster\\navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED0F0F2-CF68-431F-8370-6D5F16D58089}|PatternSoftwareDesign-S3.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s3\\viewwithmaster\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DED0F0F2-CF68-431F-8370-6D5F16D58089}|PatternSoftwareDesign-S3.csproj|solutionrelative:viewwithmaster\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED0F0F2-CF68-431F-8370-6D5F16D58089}|PatternSoftwareDesign-S3.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s3\\viewwithmaster\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DED0F0F2-CF68-431F-8370-6D5F16D58089}|PatternSoftwareDesign-S3.csproj|solutionrelative:viewwithmaster\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED0F0F2-CF68-431F-8370-6D5F16D58089}|PatternSoftwareDesign-S3.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s3\\viewwithmaster\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DED0F0F2-CF68-431F-8370-6D5F16D58089}|PatternSoftwareDesign-S3.csproj|solutionrelative:viewwithmaster\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 153,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavBar.Master",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\ViewWithMaster\\NavBar.Master",
+              "RelativeDocumentMoniker": "ViewWithMaster\\NavBar.Master",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\ViewWithMaster\\NavBar.Master",
+              "RelativeToolTip": "ViewWithMaster\\NavBar.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-24T14:47:26.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\ViewWithMaster\\Home.aspx",
+              "RelativeDocumentMoniker": "ViewWithMaster\\Home.aspx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\ViewWithMaster\\Home.aspx",
+              "RelativeToolTip": "ViewWithMaster\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-24T14:46:53.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\ViewWithMaster\\Register.aspx",
+              "RelativeDocumentMoniker": "ViewWithMaster\\Register.aspx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\ViewWithMaster\\Register.aspx",
+              "RelativeToolTip": "ViewWithMaster\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-24T14:46:30.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\ViewWithMaster\\Login.aspx",
+              "RelativeDocumentMoniker": "ViewWithMaster\\Login.aspx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S3\\ViewWithMaster\\Login.aspx",
+              "RelativeToolTip": "ViewWithMaster\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-24T14:46:01.732Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign-S1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45A1A6EE-FF8D-4BE6-9564-F96881446B8C}|PatternSoftwareDesign-S1\\PatternSoftwareDesign-S1.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign-s1\\patternsoftwaredesign-s1\\views\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A1A6EE-FF8D-4BE6-9564-F96881446B8C}|PatternSoftwareDesign-S1\\PatternSoftwareDesign-S1.csproj|solutionrelative:patternsoftwaredesign-s1\\views\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign-S1\\PatternSoftwareDesign-S1\\views\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "PatternSoftwareDesign-S1\\views\\Register.aspx.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign-S1\\PatternSoftwareDesign-S1\\views\\Register.aspx.cs",
+              "RelativeToolTip": "PatternSoftwareDesign-S1\\views\\Register.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T07:01:59.988Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

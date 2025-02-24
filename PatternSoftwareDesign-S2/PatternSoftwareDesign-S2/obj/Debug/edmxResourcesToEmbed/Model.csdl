@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cloth">
+    <Key>
+      <PropertyRef Name="cloth_id" />
+    </Key>
+    <Property Name="cloth_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="brand" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="clothes_type_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="clothes_type" Relationship="Self.FK_Clothes_ToTable" FromRole="clothes" ToRole="clothes_type" />
+  </EntityType>
+  <EntityType Name="clothes_type">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="clothes" Relationship="Self.FK_Clothes_ToTable" FromRole="clothes_type" ToRole="clothes" />
+  </EntityType>
+  <Association Name="FK_Clothes_ToTable">
+    <End Role="clothes_type" Type="Self.clothes_type" Multiplicity="0..1" />
+    <End Role="clothes" Type="Self.cloth" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clothes_type">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="clothes">
+        <PropertyRef Name="clothes_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clothes" EntityType="Self.cloth" />
+    <EntitySet Name="clothes_type" EntityType="Self.clothes_type" />
+    <AssociationSet Name="FK_Clothes_ToTable" Association="Self.FK_Clothes_ToTable">
+      <End Role="clothes_type" EntitySet="clothes_type" />
+      <End Role="clothes" EntitySet="clothes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

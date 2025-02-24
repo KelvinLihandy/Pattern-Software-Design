@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s2\\patternsoftwaredesign-s2\\views\\edit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|solutionrelative:patternsoftwaredesign-s2\\views\\edit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s2\\patternsoftwaredesign-s2\\views\\insert.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|solutionrelative:patternsoftwaredesign-s2\\views\\insert.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s2\\patternsoftwaredesign-s2\\views\\edit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|solutionrelative:patternsoftwaredesign-s2\\views\\edit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s2\\patternsoftwaredesign-s2\\views\\view.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|solutionrelative:patternsoftwaredesign-s2\\views\\view.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s2\\patternsoftwaredesign-s2\\views\\insert.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|solutionrelative:patternsoftwaredesign-s2\\views\\insert.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\patternsoftwaredesign\\patternsoftwaredesign-s2\\patternsoftwaredesign-s2\\views\\view.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7329C00A-9541-4AA9-A68E-47DEA7429D04}|PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2.csproj|solutionrelative:patternsoftwaredesign-s2\\views\\view.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 153,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\Edit.aspx.cs",
+              "RelativeDocumentMoniker": "PatternSoftwareDesign-S2\\Views\\Edit.aspx.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\Edit.aspx.cs",
+              "RelativeToolTip": "PatternSoftwareDesign-S2\\Views\\Edit.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T16:27:37.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.aspx",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\Edit.aspx",
+              "RelativeDocumentMoniker": "PatternSoftwareDesign-S2\\Views\\Edit.aspx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\Edit.aspx",
+              "RelativeToolTip": "PatternSoftwareDesign-S2\\Views\\Edit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T16:25:59.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Insert.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\Insert.aspx.cs",
+              "RelativeDocumentMoniker": "PatternSoftwareDesign-S2\\Views\\Insert.aspx.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\Insert.aspx.cs",
+              "RelativeToolTip": "PatternSoftwareDesign-S2\\Views\\Insert.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wCUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T15:44:23.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Insert.aspx",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\Insert.aspx",
+              "RelativeDocumentMoniker": "PatternSoftwareDesign-S2\\Views\\Insert.aspx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\Insert.aspx",
+              "RelativeToolTip": "PatternSoftwareDesign-S2\\Views\\Insert.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T15:37:37.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "View.aspx",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\View.aspx",
+              "RelativeDocumentMoniker": "PatternSoftwareDesign-S2\\Views\\View.aspx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\View.aspx",
+              "RelativeToolTip": "PatternSoftwareDesign-S2\\Views\\View.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-11T07:35:38.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "View.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\View.aspx.cs",
+              "RelativeDocumentMoniker": "PatternSoftwareDesign-S2\\Views\\View.aspx.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\PatternSoftwareDesign\\PatternSoftwareDesign-S2\\PatternSoftwareDesign-S2\\Views\\View.aspx.cs",
+              "RelativeToolTip": "PatternSoftwareDesign-S2\\Views\\View.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T15:22:22.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

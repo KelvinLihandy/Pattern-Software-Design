@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="clothes">
+    <Key>
+      <PropertyRef Name="cloth_id" />
+    </Key>
+    <Property Name="cloth_id" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="brand" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="price" Type="int" Nullable="false" />
+    <Property Name="clothes_type_id" Type="char" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="clothes_type">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Clothes_ToTable">
+    <End Role="clothes_type" Type="Self.clothes_type" Multiplicity="0..1" />
+    <End Role="clothes" Type="Self.clothes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clothes_type">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="clothes">
+        <PropertyRef Name="clothes_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseModelStoreContainer">
+    <EntitySet Name="clothes" EntityType="Self.clothes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="clothes_type" EntityType="Self.clothes_type" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Clothes_ToTable" Association="Self.FK_Clothes_ToTable">
+      <End Role="clothes_type" EntitySet="clothes_type" />
+      <End Role="clothes" EntitySet="clothes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
