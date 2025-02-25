@@ -1,0 +1,16 @@
+Dalam konsep domain state driven terdapat beberapa detail yang perlu kita ketahui
+a.Domain
+-Entities seperti biasa kaya identitas unik yang bisa berubah sepanjang waktu 
+-Value objek-> tidak memiliki identitas unik
+-Aggregates-> kumpulan objek sebagai satu kesatuan
+-Repositories-> pengambilan dan penyimpanan data yang berhubungan dengan database
+b. Application-> servis yang mengangani kebutuhan bisnis yang lebih tinggi, 
+-Menghubungkan atnara domain dan infrastruktur
+c. Infrastruktur-> berkomunikais dengan api eksternal atau mendukung lapisan lain seperti ado.net
+
+-model
+---> blueprint, misalnya ingin membuat mobil, maka model adalah blueprint atau gambar dari desain mobil yang ingin dibuat, dan didalamnya terdapat bagian dalam movil
+
+-factory
+--misalnya punya pabrik mobil dan pengen membuat beberapa jenis mobil, daripada kita membuat mobil tersebut, kita punya pabrik yang buat jenis mobil yang pengen dibuat, jadi kita panggil dari kelas factory
+disini tuh nama methodnya sama tetapi implementasinya berbeda beda

@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D20768F5-D0BE-456E-A09F-E68227A8735D}|PatternSoftwareDesign-S4.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s4\\main\\main.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D20768F5-D0BE-456E-A09F-E68227A8735D}|PatternSoftwareDesign-S4.csproj|solutionrelative:main\\main.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D20768F5-D0BE-456E-A09F-E68227A8735D}|PatternSoftwareDesign-S4.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s4\\main\\main.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D20768F5-D0BE-456E-A09F-E68227A8735D}|PatternSoftwareDesign-S4.csproj|solutionrelative:main\\main.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D20768F5-D0BE-456E-A09F-E68227A8735D}|PatternSoftwareDesign-S4.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s4\\factory\\factoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D20768F5-D0BE-456E-A09F-E68227A8735D}|PatternSoftwareDesign-S4.csproj|solutionrelative:factory\\factoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D20768F5-D0BE-456E-A09F-E68227A8735D}|PatternSoftwareDesign-S4.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s4\\model\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{D20768F5-D0BE-456E-A09F-E68227A8735D}|PatternSoftwareDesign-S4.csproj|solutionrelative:model\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 153,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\Main\\Main.aspx.cs",
+              "RelativeDocumentMoniker": "Main\\Main.aspx.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\Main\\Main.aspx.cs",
+              "RelativeToolTip": "Main\\Main.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:03:46.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.aspx",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\Main\\Main.aspx",
+              "RelativeDocumentMoniker": "Main\\Main.aspx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\Main\\Main.aspx",
+              "RelativeToolTip": "Main\\Main.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-25T12:03:09.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FactoryClass.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\Factory\\FactoryClass.cs",
+              "RelativeDocumentMoniker": "Factory\\FactoryClass.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\Factory\\FactoryClass.cs",
+              "RelativeToolTip": "Factory\\FactoryClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:02:12.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\Model\\Model1.edmx",
+              "RelativeDocumentMoniker": "Model\\Model1.edmx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S4\\Model\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Model\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-25T11:59:29.678Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

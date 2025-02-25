@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cloth">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="brand" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="size" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="stock" Type="Int32" />
+    <Property Name="price" Type="Int32" />
+    <Property Name="cloth_type_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="cloth_types" Relationship="Self.FK_cloth_ToTable" FromRole="cloth" ToRole="cloth_types" />
+    <NavigationProperty Name="transaction_detail" Relationship="Self.FK_transaction_detail_ToTable_1" FromRole="cloth" ToRole="transaction_detail" />
+  </EntityType>
+  <EntityType Name="cloth_types">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="clothes" Relationship="Self.FK_cloth_ToTable" FromRole="cloth_types" ToRole="cloth" />
+  </EntityType>
+  <EntityType Name="payment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="paymentType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="transactions" Relationship="Self.FK_transaction_ToTable_payment" FromRole="payment" ToRole="transaction" />
+  </EntityType>
+  <EntityType Name="transaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="userId" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="transaction_date" Type="DateTime" Precision="0" />
+    <Property Name="payment_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="payment" Relationship="Self.FK_transaction_ToTable_payment" FromRole="transaction" ToRole="payment" />
+    <NavigationProperty Name="transaction_detail" Relationship="Self.FK_transaction_detail_ToTable" FromRole="transaction" ToRole="transaction_detail" />
+    <NavigationProperty Name="user" Relationship="Self.FK_transaction_ToTable" FromRole="transaction" ToRole="user" />
+  </EntityType>
+  <EntityType Name="transaction_detail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="cloth_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="quantity" Type="Int32" />
+    <NavigationProperty Name="cloth" Relationship="Self.FK_transaction_detail_ToTable_1" FromRole="transaction_detail" ToRole="cloth" />
+    <NavigationProperty Name="transaction" Relationship="Self.FK_transaction_detail_ToTable" FromRole="transaction_detail" ToRole="transaction" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="transactions" Relationship="Self.FK_transaction_ToTable" FromRole="user" ToRole="transaction" />
+  </EntityType>
+  <Association Name="FK_cloth_ToTable">
+    <End Role="cloth_types" Type="Self.cloth_types" Multiplicity="0..1" />
+    <End Role="cloth" Type="Self.cloth" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cloth_types">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="cloth">
+        <PropertyRef Name="cloth_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_transaction_detail_ToTable_1">
+    <End Role="cloth" Type="Self.cloth" Multiplicity="0..1" />
+    <End Role="transaction_detail" Type="Self.transaction_detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cloth">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="transaction_detail">
+        <PropertyRef Name="cloth_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_transaction_ToTable_payment">
+    <End Role="payment" Type="Self.payment" Multiplicity="0..1" />
+    <End Role="transaction" Type="Self.transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="payment">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="transaction">
+        <PropertyRef Name="payment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_transaction_detail_ToTable">
+    <End Role="transaction" Type="Self.transaction" Multiplicity="1" />
+    <End Role="transaction_detail" Type="Self.transaction_detail" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="transaction">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="transaction_detail">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_transaction_ToTable">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="transaction" Type="Self.transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="transaction">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clothes" EntityType="Self.cloth" />
+    <EntitySet Name="cloth_types" EntityType="Self.cloth_types" />
+    <EntitySet Name="payments" EntityType="Self.payment" />
+    <EntitySet Name="transactions" EntityType="Self.transaction" />
+    <EntitySet Name="transaction_detail" EntityType="Self.transaction_detail" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK_cloth_ToTable" Association="Self.FK_cloth_ToTable">
+      <End Role="cloth_types" EntitySet="cloth_types" />
+      <End Role="cloth" EntitySet="clothes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_transaction_detail_ToTable_1" Association="Self.FK_transaction_detail_ToTable_1">
+      <End Role="cloth" EntitySet="clothes" />
+      <End Role="transaction_detail" EntitySet="transaction_detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_transaction_ToTable_payment" Association="Self.FK_transaction_ToTable_payment">
+      <End Role="payment" EntitySet="payments" />
+      <End Role="transaction" EntitySet="transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_transaction_detail_ToTable" Association="Self.FK_transaction_detail_ToTable">
+      <End Role="transaction" EntitySet="transactions" />
+      <End Role="transaction_detail" EntitySet="transaction_detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_transaction_ToTable" Association="Self.FK_transaction_ToTable">
+      <End Role="user" EntitySet="users" />
+      <End Role="transaction" EntitySet="transactions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
