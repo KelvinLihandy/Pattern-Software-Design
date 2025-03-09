@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ee399092de34886baab112baf4158ee" Name="Diagram1">
+        <EntityTypeShape EntityType="ClothStoreModel.cloth_types" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClothStoreModel.cloth" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClothStoreModel.transaction" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClothStoreModel.user" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClothStoreModel.transaction_details" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="ClothStoreModel.FK_clothes_cloth_types" ManuallyRouted="false" />
+        <AssociationConnector Association="ClothStoreModel.FK_transaction_details_clothes" ManuallyRouted="false" />
+        <AssociationConnector Association="ClothStoreModel.FK_transaction_details_transactions" ManuallyRouted="false" />
+        <AssociationConnector Association="ClothStoreModel.FK_transaction_users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

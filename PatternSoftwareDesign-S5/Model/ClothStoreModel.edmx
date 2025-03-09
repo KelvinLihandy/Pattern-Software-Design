@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ClothStoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="cloth_types">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="clothes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="brand" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="size" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="stock" Type="int" Nullable="false" />
+          <Property Name="price" Type="int" Nullable="false" />
+          <Property Name="cloth_typeid" Type="char" MaxLength="5" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\KELVI\ONEDRIVE\DOCUMENTS\CODING\C#\PATTERN SOFTWARE DESIGN\PATTERNSOFTWAREDESIGN-S5\APP_DATA\CLOTHSTORE.MDF.dbo.transaction_details' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="transaction_details">
+          <Key>
+            <PropertyRef Name="transaction_id" />
+            <PropertyRef Name="cloth_id" />
+            <PropertyRef Name="quantity" />
+          </Key>
+          <Property Name="transaction_id" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="cloth_id" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="quantity" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="transactions">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="user_id" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="transaction_date" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="username" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_clothes_cloth_types">
+          <End Role="cloth_types" Type="Self.cloth_types" Multiplicity="0..1" />
+          <End Role="clothes" Type="Self.clothes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cloth_types">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="clothes">
+              <PropertyRef Name="cloth_typeid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_transaction_details_clothes">
+          <End Role="clothes" Type="Self.clothes" Multiplicity="1" />
+          <End Role="transaction_details" Type="Self.transaction_details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="clothes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="transaction_details">
+              <PropertyRef Name="cloth_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_transaction_details_transactions">
+          <End Role="transactions" Type="Self.transactions" Multiplicity="1" />
+          <End Role="transaction_details" Type="Self.transaction_details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="transactions">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="transaction_details">
+              <PropertyRef Name="transaction_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_transaction_users">
+          <End Role="users" Type="Self.users" Multiplicity="1" />
+          <End Role="transactions" Type="Self.transactions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="transactions">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ClothStoreModelStoreContainer">
+          <EntitySet Name="cloth_types" EntityType="Self.cloth_types" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="clothes" EntityType="Self.clothes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="transactions" EntityType="Self.transactions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="transaction_details" EntityType="Self.transaction_details" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [transaction_details].[transaction_id] AS [transaction_id], 
+    [transaction_details].[cloth_id] AS [cloth_id], 
+    [transaction_details].[quantity] AS [quantity]
+    FROM [dbo].[transaction_details] AS [transaction_details]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_clothes_cloth_types" Association="Self.FK_clothes_cloth_types">
+            <End Role="cloth_types" EntitySet="cloth_types" />
+            <End Role="clothes" EntitySet="clothes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_transaction_details_clothes" Association="Self.FK_transaction_details_clothes">
+            <End Role="clothes" EntitySet="clothes" />
+            <End Role="transaction_details" EntitySet="transaction_details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_transaction_details_transactions" Association="Self.FK_transaction_details_transactions">
+            <End Role="transactions" EntitySet="transactions" />
+            <End Role="transaction_details" EntitySet="transaction_details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_transaction_users" Association="Self.FK_transaction_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="transactions" EntitySet="transactions" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ClothStoreModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="cloth_types">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="clothes" Relationship="Self.FK_clothes_cloth_types" FromRole="cloth_types" ToRole="clothes" />
+        </EntityType>
+        <EntityType Name="cloth">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="brand" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="size" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="stock" Type="Int32" Nullable="false" />
+          <Property Name="price" Type="Int32" Nullable="false" />
+          <Property Name="cloth_typeid" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="cloth_types" Relationship="Self.FK_clothes_cloth_types" FromRole="clothes" ToRole="cloth_types" />
+          <NavigationProperty Name="transaction_details" Relationship="Self.FK_transaction_details_clothes" FromRole="clothes" ToRole="transaction_details" />
+        </EntityType>
+        <EntityType Name="transaction">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="user_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="transaction_date" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="transaction_details" Relationship="Self.FK_transaction_details_transactions" FromRole="transactions" ToRole="transaction_details" />
+          <NavigationProperty Name="user" Relationship="Self.FK_transaction_users" FromRole="transactions" ToRole="users" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="transactions" Relationship="Self.FK_transaction_users" FromRole="users" ToRole="transactions" />
+        </EntityType>
+        <EntityType Name="transaction_details">
+          <Key>
+            <PropertyRef Name="transaction_id" />
+            <PropertyRef Name="cloth_id" />
+            <PropertyRef Name="quantity" />
+          </Key>
+          <Property Name="transaction_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="cloth_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="quantity" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="cloth" Relationship="Self.FK_transaction_details_clothes" FromRole="transaction_details" ToRole="clothes" />
+          <NavigationProperty Name="transaction" Relationship="Self.FK_transaction_details_transactions" FromRole="transaction_details" ToRole="transactions" />
+        </EntityType>
+        <Association Name="FK_clothes_cloth_types">
+          <End Role="cloth_types" Type="Self.cloth_types" Multiplicity="0..1" />
+          <End Role="clothes" Type="Self.cloth" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cloth_types">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="clothes">
+              <PropertyRef Name="cloth_typeid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_transaction_details_clothes">
+          <End Role="clothes" Type="Self.cloth" Multiplicity="1" />
+          <End Role="transaction_details" Type="Self.transaction_details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="clothes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="transaction_details">
+              <PropertyRef Name="cloth_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_transaction_details_transactions">
+          <End Role="transactions" Type="Self.transaction" Multiplicity="1" />
+          <End Role="transaction_details" Type="Self.transaction_details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="transactions">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="transaction_details">
+              <PropertyRef Name="transaction_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_transaction_users">
+          <End Role="users" Type="Self.user" Multiplicity="1" />
+          <End Role="transactions" Type="Self.transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="transactions">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ClothStoreEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="cloth_types" EntityType="Self.cloth_types" />
+          <EntitySet Name="clothes" EntityType="Self.cloth" />
+          <EntitySet Name="transactions" EntityType="Self.transaction" />
+          <EntitySet Name="users" EntityType="Self.user" />
+          <EntitySet Name="transaction_details" EntityType="Self.transaction_details" />
+          <AssociationSet Name="FK_clothes_cloth_types" Association="Self.FK_clothes_cloth_types">
+            <End Role="cloth_types" EntitySet="cloth_types" />
+            <End Role="clothes" EntitySet="clothes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_transaction_details_clothes" Association="Self.FK_transaction_details_clothes">
+            <End Role="clothes" EntitySet="clothes" />
+            <End Role="transaction_details" EntitySet="transaction_details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_transaction_details_transactions" Association="Self.FK_transaction_details_transactions">
+            <End Role="transactions" EntitySet="transactions" />
+            <End Role="transaction_details" EntitySet="transaction_details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_transaction_users" Association="Self.FK_transaction_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="transactions" EntitySet="transactions" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ClothStoreModelStoreContainer" CdmEntityContainer="ClothStoreEntities">
+          <EntitySetMapping Name="cloth_types">
+            <EntityTypeMapping TypeName="ClothStoreModel.cloth_types">
+              <MappingFragment StoreEntitySet="cloth_types">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="clothes">
+            <EntityTypeMapping TypeName="ClothStoreModel.cloth">
+              <MappingFragment StoreEntitySet="clothes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="brand" ColumnName="brand" />
+                <ScalarProperty Name="size" ColumnName="size" />
+                <ScalarProperty Name="stock" ColumnName="stock" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="cloth_typeid" ColumnName="cloth_typeid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="transactions">
+            <EntityTypeMapping TypeName="ClothStoreModel.transaction">
+              <MappingFragment StoreEntitySet="transactions">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="transaction_date" ColumnName="transaction_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="ClothStoreModel.user">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="transaction_details">
+            <EntityTypeMapping TypeName="ClothStoreModel.transaction_details">
+              <MappingFragment StoreEntitySet="transaction_details">
+                <ScalarProperty Name="transaction_id" ColumnName="transaction_id" />
+                <ScalarProperty Name="cloth_id" ColumnName="cloth_id" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

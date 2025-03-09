@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClothStoreModelStoreContainer" CdmEntityContainer="ClothStoreEntities">
+    <EntitySetMapping Name="cloth_types">
+      <EntityTypeMapping TypeName="ClothStoreModel.cloth_types">
+        <MappingFragment StoreEntitySet="cloth_types">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clothes">
+      <EntityTypeMapping TypeName="ClothStoreModel.cloth">
+        <MappingFragment StoreEntitySet="clothes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="cloth_typeid" ColumnName="cloth_typeid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="transactions">
+      <EntityTypeMapping TypeName="ClothStoreModel.transaction">
+        <MappingFragment StoreEntitySet="transactions">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="transaction_date" ColumnName="transaction_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="ClothStoreModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="transaction_details">
+      <EntityTypeMapping TypeName="ClothStoreModel.transaction_details">
+        <MappingFragment StoreEntitySet="transaction_details">
+          <ScalarProperty Name="transaction_id" ColumnName="transaction_id" />
+          <ScalarProperty Name="cloth_id" ColumnName="cloth_id" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s5\\repository\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|solutionrelative:repository\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s5\\page\\transaction.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|solutionrelative:page\\transaction.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s5\\page\\transaction.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|solutionrelative:page\\transaction.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s5\\page\\transactiondetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|solutionrelative:page\\transactiondetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KELVI_ONEDRIVE_DOCUMENTS_CODING_C__PATTERN_SOFTWARE_DESIGN_PATTERNSOFTWAREDESIGN_S5_APP_DATA_CLOTHSTORE.MDF/True/SqlTable/dbo.cloth_types.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KELVI_ONEDRIVE_DOCUMENTS_CODING_C__PATTERN_SOFTWARE_DESIGN_PATTERNSOFTWAREDESIGN_S5_APP_DATA_CLOTHSTORE.MDF/True/SqlTable/dbo.transactions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s5\\model\\clothstoremodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|solutionrelative:model\\clothstoremodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|c:\\users\\kelvi\\onedrive\\documents\\coding\\c#\\pattern software design\\patternsoftwaredesign-s5\\page\\transaction.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871162A9-69DC-4E16-B34E-477CDC7062D5}|PatternSoftwareDesign-S5.csproj|solutionrelative:page\\transaction.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseSingleton.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Repository\\DatabaseSingleton.cs",
+              "RelativeDocumentMoniker": "Repository\\DatabaseSingleton.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Repository\\DatabaseSingleton.cs",
+              "RelativeToolTip": "Repository\\DatabaseSingleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T12:47:47.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.transactions [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KELVI_ONEDRIVE_DOCUMENTS_CODING_C__PATTERN_SOFTWARE_DESIGN_PATTERNSOFTWAREDESIGN_S5_APP_DATA_CLOTHSTORE.MDF/True/SqlTable/dbo.transactions.sql",
+              "ToolTip": "dbo.transactions [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-09T12:45:28.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.cloth_types [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KELVI_ONEDRIVE_DOCUMENTS_CODING_C__PATTERN_SOFTWARE_DESIGN_PATTERNSOFTWAREDESIGN_S5_APP_DATA_CLOTHSTORE.MDF/True/SqlTable/dbo.cloth_types.sql",
+              "ToolTip": "dbo.cloth_types [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-09T12:45:22.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClothStoreModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Model\\ClothStoreModel.edmx",
+              "RelativeDocumentMoniker": "Model\\ClothStoreModel.edmx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Model\\ClothStoreModel.edmx [Diagram1]",
+              "RelativeToolTip": "Model\\ClothStoreModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-03-09T12:45:07.956Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionDetail.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Page\\TransactionDetail.aspx.cs",
+              "RelativeDocumentMoniker": "Page\\TransactionDetail.aspx.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Page\\TransactionDetail.aspx.cs",
+              "RelativeToolTip": "Page\\TransactionDetail.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T12:44:58.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaction.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Page\\Transaction.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Page\\Transaction.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Page\\Transaction.aspx.designer.cs",
+              "RelativeToolTip": "Page\\Transaction.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T12:44:55.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaction.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Page\\Transaction.aspx.cs",
+              "RelativeDocumentMoniker": "Page\\Transaction.aspx.cs",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Page\\Transaction.aspx.cs",
+              "RelativeToolTip": "Page\\Transaction.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T12:44:51.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaction.aspx",
+              "DocumentMoniker": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Page\\Transaction.aspx",
+              "RelativeDocumentMoniker": "Page\\Transaction.aspx",
+              "ToolTip": "C:\\Users\\kelvi\\OneDrive\\Documents\\Coding\\C#\\Pattern Software Design\\PatternSoftwareDesign-S5\\Page\\Transaction.aspx",
+              "RelativeToolTip": "Page\\Transaction.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-09T12:43:03.182Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
