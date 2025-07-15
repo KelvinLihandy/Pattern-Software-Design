@@ -1,0 +1,460 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|d:\\ngajar\\patternsoftwaredesign - comp6114001\\sesi9_template\\qualiffb25-1_psd\\qualiffb25-1_psd\\qualif\\views\\returnbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\returnbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|d:\\ngajar\\patternsoftwaredesign - comp6114001\\sesi9_template\\qualiffb25-1_psd\\qualiffb25-1_psd\\qualif\\views\\insertbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\insertbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\factory\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\factory\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\factory\\transactionheaderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\factory\\transactionheaderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\factory\\bookfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\factory\\bookfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\factory\\bookdetailfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\factory\\bookdetailfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\controller\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\controller\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\controller\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\controller\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\handler\\borrowhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\handler\\borrowhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\handler\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\handler\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\homepage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\homepage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\handler\\bookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\handler\\bookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\borrowpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\borrowpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\borrowpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\borrowpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__POSTTRAINING_PATTERNSOFTWAREDESIGN_CASE_PATTERNSOFTWAREDESIGN_QUALIF_FB25_1_QUALIF_QUALIF_APP_DATA_BOOK.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__POSTTRAINING_PATTERNSOFTWAREDESIGN_CASE_PATTERNSOFTWAREDESIGN_QUALIF_FB25_1_QUALIF_QUALIF_APP_DATA_BOOK.MDF/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\views\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\views\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\repository\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\repository\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\qualif\\model\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{8B28ACB8-EE2C-4258-BC3B-8C667E99A7B5}|Qualif\\Qualif.csproj|solutionrelative:qualif\\model\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InsertBook.aspx",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\InsertBook.aspx",
+              "RelativeDocumentMoniker": "Qualif\\Views\\InsertBook.aspx",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\InsertBook.aspx",
+              "RelativeToolTip": "Qualif\\Views\\InsertBook.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-06T00:08:06.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BorrowController.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Controller\\BorrowController.cs",
+              "RelativeDocumentMoniker": "Qualif\\Controller\\BorrowController.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Controller\\BorrowController.cs",
+              "RelativeToolTip": "Qualif\\Controller\\BorrowController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T00:06:46.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Controller\\BookController.cs",
+              "RelativeDocumentMoniker": "Qualif\\Controller\\BookController.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Controller\\BookController.cs",
+              "RelativeToolTip": "Qualif\\Controller\\BookController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T00:06:42.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BorrowHandler.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Handler\\BorrowHandler.cs",
+              "RelativeDocumentMoniker": "Qualif\\Handler\\BorrowHandler.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Handler\\BorrowHandler.cs",
+              "RelativeToolTip": "Qualif\\Handler\\BorrowHandler.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:08:49.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\HomePage.aspx",
+              "RelativeDocumentMoniker": "Qualif\\Views\\HomePage.aspx",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\HomePage.aspx",
+              "RelativeToolTip": "Qualif\\Views\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-23T08:24:20.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "Qualif\\Controller\\UserController.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Controller\\UserController.cs",
+              "RelativeToolTip": "Qualif\\Controller\\UserController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:24:33.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\Login.aspx",
+              "RelativeDocumentMoniker": "Qualif\\Views\\Login.aspx",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\Login.aspx",
+              "RelativeToolTip": "Qualif\\Views\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-23T08:59:08.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\Register.aspx",
+              "RelativeDocumentMoniker": "Qualif\\Views\\Register.aspx",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\Register.aspx",
+              "RelativeToolTip": "Qualif\\Views\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-23T09:35:46.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.aspx.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\HomePage.aspx.cs",
+              "RelativeDocumentMoniker": "Qualif\\Views\\HomePage.aspx.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\HomePage.aspx.cs",
+              "RelativeToolTip": "Qualif\\Views\\HomePage.aspx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:18:12.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReturnBook.aspx",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\ReturnBook.aspx",
+              "RelativeDocumentMoniker": "Qualif\\Views\\ReturnBook.aspx",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\ReturnBook.aspx",
+              "RelativeToolTip": "Qualif\\Views\\ReturnBook.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-06T02:11:28.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookFactory.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Factory\\BookFactory.cs",
+              "RelativeDocumentMoniker": "Qualif\\Factory\\BookFactory.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Factory\\BookFactory.cs",
+              "RelativeToolTip": "Qualif\\Factory\\BookFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T00:06:55.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionHeaderFactory.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Factory\\TransactionHeaderFactory.cs",
+              "RelativeDocumentMoniker": "Qualif\\Factory\\TransactionHeaderFactory.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Factory\\TransactionHeaderFactory.cs",
+              "RelativeToolTip": "Qualif\\Factory\\TransactionHeaderFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T00:06:56.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserFactory.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Factory\\UserFactory.cs",
+              "RelativeDocumentMoniker": "Qualif\\Factory\\UserFactory.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Factory\\UserFactory.cs",
+              "RelativeToolTip": "Qualif\\Factory\\UserFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T00:06:57.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookDetailFactory.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Factory\\BookDetailFactory.cs",
+              "RelativeDocumentMoniker": "Qualif\\Factory\\BookDetailFactory.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Factory\\BookDetailFactory.cs",
+              "RelativeToolTip": "Qualif\\Factory\\BookDetailFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:10:37.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePage.aspx.designer.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\HomePage.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Qualif\\Views\\HomePage.aspx.designer.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\HomePage.aspx.designer.cs",
+              "RelativeToolTip": "Qualif\\Views\\HomePage.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:39:47.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookHandler.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Handler\\BookHandler.cs",
+              "RelativeDocumentMoniker": "Qualif\\Handler\\BookHandler.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Handler\\BookHandler.cs",
+              "RelativeToolTip": "Qualif\\Handler\\BookHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:30:30.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Handler\\UserHandler.cs",
+              "RelativeDocumentMoniker": "Qualif\\Handler\\UserHandler.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Handler\\UserHandler.cs",
+              "RelativeToolTip": "Qualif\\Handler\\UserHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:28:31.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BorrowPage.aspx.designer.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\BorrowPage.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Qualif\\Views\\BorrowPage.aspx.designer.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\BorrowPage.aspx.designer.cs",
+              "RelativeToolTip": "Qualif\\Views\\BorrowPage.aspx.designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:10:35.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BorrowPage.aspx.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\BorrowPage.aspx.cs",
+              "RelativeDocumentMoniker": "Qualif\\Views\\BorrowPage.aspx.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\BorrowPage.aspx.cs",
+              "RelativeToolTip": "Qualif\\Views\\BorrowPage.aspx.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:07:01.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Qualif\\Views\\Login.aspx.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\Login.aspx.cs",
+              "RelativeToolTip": "Qualif\\Views\\Login.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:37:54.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__POSTTRAINING_PATTERNSOFTWAREDESIGN_CASE_PATTERNSOFTWAREDESIGN_QUALIF_FB25_1_QUALIF_QUALIF_APP_DATA_BOOK.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__POSTTRAINING_PATTERNSOFTWAREDESIGN_CASE_PATTERNSOFTWAREDESIGN_QUALIF_FB25_1_QUALIF_QUALIF_APP_DATA_BOOK.MDF/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-23T09:41:34.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dbo.Books.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__POSTTRAINING_PATTERNSOFTWAREDESIGN_CASE_PATTERNSOFTWAREDESIGN_QUALIF_FB25_1_QUALIF_QUALIF_APP_DATA_BOOK.MDF/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__POSTTRAINING_PATTERNSOFTWAREDESIGN_CASE_PATTERNSOFTWAREDESIGN_QUALIF_FB25_1_QUALIF_QUALIF_APP_DATA_BOOK.MDF/True/SqlTable/dbo.Books.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-23T10:04:10.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "Qualif\\Views\\Register.aspx.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Views\\Register.aspx.cs",
+              "RelativeToolTip": "Qualif\\Views\\Register.aspx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T08:45:26.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Qualif\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Qualif\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T08:46:08.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DatabaseSingleton.cs",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Repository\\DatabaseSingleton.cs",
+              "RelativeDocumentMoniker": "Qualif\\Repository\\DatabaseSingleton.cs",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Repository\\DatabaseSingleton.cs",
+              "RelativeToolTip": "Qualif\\Repository\\DatabaseSingleton.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:37:10.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Model\\Model1.edmx",
+              "RelativeDocumentMoniker": "Qualif\\Model\\Model1.edmx",
+              "ToolTip": "D:\\Ngajar\\PatternSoftwareDesign - COMP6114001\\Sesi9_Template\\QualifFB25-1_PSD\\QualifFB25-1_PSD\\Qualif\\Model\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Qualif\\Model\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-03-23T08:44:54.433Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

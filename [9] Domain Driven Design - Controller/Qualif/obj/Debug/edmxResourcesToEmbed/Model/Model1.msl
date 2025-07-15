@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BookModelStoreContainer" CdmEntityContainer="BookEntities">
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="BookModel.Book">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="BookID" ColumnName="BookID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="CopiesAvailable" ColumnName="CopiesAvailable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BorrowDetails">
+      <EntityTypeMapping TypeName="BookModel.BorrowDetail">
+        <MappingFragment StoreEntitySet="BorrowDetails">
+          <ScalarProperty Name="DetailID" ColumnName="DetailID" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="BookID" ColumnName="BookID" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BorrowTransactions">
+      <EntityTypeMapping TypeName="BookModel.BorrowTransaction">
+        <MappingFragment StoreEntitySet="BorrowTransactions">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="BorrowDate" ColumnName="BorrowDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="BookModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

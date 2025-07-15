@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cloth">
+    <Key>
+      <PropertyRef Name="clothId" />
+    </Key>
+    <Property Name="clothId" Type="Int32" Nullable="false" />
+    <Property Name="brand" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="stock" Type="Int32" />
+    <Property Name="price" Type="Int32" />
+    <NavigationProperty Name="transactiondetails" Relationship="Self.FK_transactiondetail_cloth" FromRole="cloth" ToRole="transactiondetail" />
+  </EntityType>
+  <EntityType Name="transaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="transaction_date" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="transactiondetails" Relationship="Self.FK_transactiondetail_transaction" FromRole="transaction" ToRole="transactiondetail" />
+  </EntityType>
+  <EntityType Name="transactiondetail">
+    <Key>
+      <PropertyRef Name="transactionId" />
+      <PropertyRef Name="clothId" />
+    </Key>
+    <Property Name="transactionId" Type="Int32" Nullable="false" />
+    <Property Name="clothId" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" />
+    <NavigationProperty Name="cloth" Relationship="Self.FK_transactiondetail_cloth" FromRole="transactiondetail" ToRole="cloth" />
+    <NavigationProperty Name="transaction" Relationship="Self.FK_transactiondetail_transaction" FromRole="transactiondetail" ToRole="transaction" />
+  </EntityType>
+  <Association Name="FK_transactiondetail_cloth">
+    <End Role="cloth" Type="Self.cloth" Multiplicity="1" />
+    <End Role="transactiondetail" Type="Self.transactiondetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cloth">
+        <PropertyRef Name="clothId" />
+      </Principal>
+      <Dependent Role="transactiondetail">
+        <PropertyRef Name="clothId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_transactiondetail_transaction">
+    <End Role="transaction" Type="Self.transaction" Multiplicity="1" />
+    <End Role="transactiondetail" Type="Self.transactiondetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="transaction">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="transactiondetail">
+        <PropertyRef Name="transactionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clothes" EntityType="Self.cloth" />
+    <EntitySet Name="transactions" EntityType="Self.transaction" />
+    <EntitySet Name="transactiondetails" EntityType="Self.transactiondetail" />
+    <AssociationSet Name="FK_transactiondetail_cloth" Association="Self.FK_transactiondetail_cloth">
+      <End Role="cloth" EntitySet="clothes" />
+      <End Role="transactiondetail" EntitySet="transactiondetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_transactiondetail_transaction" Association="Self.FK_transactiondetail_transaction">
+      <End Role="transaction" EntitySet="transactions" />
+      <End Role="transactiondetail" EntitySet="transactiondetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

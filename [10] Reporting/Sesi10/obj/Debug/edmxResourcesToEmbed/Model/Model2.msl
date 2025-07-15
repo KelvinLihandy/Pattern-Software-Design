@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities1">
+    <EntitySetMapping Name="clothes">
+      <EntityTypeMapping TypeName="Database1Model.cloth">
+        <MappingFragment StoreEntitySet="cloth">
+          <ScalarProperty Name="clothId" ColumnName="clothId" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="transactions">
+      <EntityTypeMapping TypeName="Database1Model.transaction">
+        <MappingFragment StoreEntitySet="transaction">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="transaction_date" ColumnName="transaction_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="transactiondetails">
+      <EntityTypeMapping TypeName="Database1Model.transactiondetail">
+        <MappingFragment StoreEntitySet="transactiondetail">
+          <ScalarProperty Name="transactionId" ColumnName="transactionId" />
+          <ScalarProperty Name="clothId" ColumnName="clothId" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

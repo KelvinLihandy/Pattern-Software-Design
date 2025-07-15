@@ -1,0 +1,164 @@
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\Qualif.dll.config
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\Qualif.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\Qualif.pdb
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\csc.exe
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\csc.exe.config
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\csc.rsp
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\csi.exe
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\csi.exe.config
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\csi.rsp
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.Managed.Core.targets
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.AppContext.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Collections.Immutable.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Console.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Globalization.Calendars.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.IO.Compression.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.IO.FileSystem.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Net.Http.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Net.Sockets.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Reflection.Metadata.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.ValueTuple.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Xml.XmlDocument.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Xml.XPath.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\vbc.exe
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\vbc.exe.config
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\vbc.rsp
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\VBCSCompiler.exe
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\roslyn\VBCSCompiler.exe.config
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\EntityFramework.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\EntityFramework.SqlServer.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\EntityFramework.xml
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\EntityFramework.SqlServer.xml
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\obj\Debug\Qualif.csproj.AssemblyReference.cache
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\obj\Debug\Qualif.csproj.CoreCompileInputs.cache
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\obj\Debug\Qualif.csproj.Up2Date
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\obj\Debug\Qualif.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\obj\Debug\Qualif.pdb
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\Newtonsoft.Json.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\Newtonsoft.Json.xml
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportSource.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.Shared.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.Web.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PostTraining\PatternSoftwareDesign_Case\PatternSoftwareDesign_Qualif_FB25-1\Qualif\Qualif\bin\stdole.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\Qualif.dll.config
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\Qualif.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\Qualif.pdb
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\csc.exe
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\csc.exe.config
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\csc.rsp
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\csi.exe
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\csi.exe.config
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\csi.rsp
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.AppContext.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Collections.Immutable.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Console.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Globalization.Calendars.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.IO.Compression.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.IO.FileSystem.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Net.Http.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Net.Sockets.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Reflection.Metadata.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.ValueTuple.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Xml.XPath.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\vbc.exe
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\vbc.exe.config
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\vbc.rsp
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\VBCSCompiler.exe
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\roslyn\VBCSCompiler.exe.config
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportSource.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.Shared.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.Web.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\EntityFramework.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\EntityFramework.SqlServer.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\Newtonsoft.Json.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\stdole.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\EntityFramework.xml
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\EntityFramework.SqlServer.xml
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\Newtonsoft.Json.xml
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\obj\Debug\Qualif.csproj.AssemblyReference.cache
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\obj\Debug\Qualif.csproj.CoreCompileInputs.cache
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\obj\Debug\Qualif.csproj.Up2Date
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\obj\Debug\Qualif.dll
+D:\Ngajar\PatternSoftwareDesign - COMP6114001\Sesi9_Template\QualifFB25-1_PSD\QualifFB25-1_PSD\Qualif\obj\Debug\Qualif.pdb
